@@ -1,0 +1,21 @@
+/* just for test*/
+#text{
+    color: aqua;
+    background-color: bisque;
+    float: right;
+    text-align: right;
+    border:5px solid rgba(102, 51, 153, 1.0);
+    border-style: groove;
+    border-radius: 10px;
+
+}
+
+body{
+    background-image: url("../img/hadith.logo.jpeg");
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-origin: content-box;
+    background-size: 200px;
+}

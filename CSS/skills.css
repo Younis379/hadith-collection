@@ -2,8 +2,8 @@
 #text{
     color: aqua;
     background-color: bisque;
-    float: center;
-    text-align: justify;
+    float: right;
+    text-align: left;
     border:5px solid rgba(102, 51, 153, 1.0);
     border-style: groove;
     border-radius: 10px;
@@ -11,16 +11,29 @@
     margin-top: 20px;
     max-width: 200px;
     outline-color: chocolate;
-    
+    float: bottom;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+a:link, a:visited{
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rebeccapurple;
+    text-shadow: 0px 0px 5px red;
+    display: grid;
+    margin-top: 4px;
+    font-size: larger;
 
 
 
 }
-.nav{
+a:hover, a:active{
+    color: orange;
+    background: blueviolet;
+    text-decoration: underline;
+    background-size: 10px;
+    border-width: 10px;
 
 
-
-    
 }
 
 
@@ -30,6 +43,8 @@
     white-space: nowrap;
     text-align: center;
     float: right bottom;
+
+    
 }
 
 
@@ -46,3 +61,32 @@ body{
     background-size: 200px;
     outline-color: navy;
 }
+
+
+h1{
+    background-color: crimson;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: royalblue 5px;
+    border-radius: 20px;
+    border-width: 10px;
+    text-align: justify;
+    padding: 3px;
+    margin: 2px;
+    color: khaki;
+    text-decoration: dashed;
+    border-style: outset;
+    text-transform: capitalize;
+    text-shadow: rgb(0, 238, 255) 3px 3px 10px;
+    text-shadow: rgb(225, 255, 0) 4px 4px 8px;
+    text-align: left;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: "Tangerine";
+    font-size: 50px;
+  
+}   
